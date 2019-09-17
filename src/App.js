@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import NoteList from './Components/NoteList/NoteList';
+import Notepad from "./Components/Notepad/Notepad";
 
 class App extends Component {
 
@@ -58,6 +59,7 @@ class App extends Component {
                 <NavBar deleteClickHandler={this.deleteClickHandler} searchInputHandler={this.searchInputHandler}/>
                 <NoteList notes={this.state.notes} selected={this.state.selectedNoteID} searchTerm={this.state.searchTerm}
                           noteClickHandler={this.noteClickHandler}/>
+                <Notepad></Notepad>
             </div>
         );
     }
