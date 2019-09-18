@@ -9,6 +9,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    box-sizing: border-box;
 }
 
 .button {
@@ -18,6 +19,7 @@
     /*margin-top: 5px;*/
     border: 1px solid #D8D8D8;
     background-color: white;
+    margin-left: 15px;
 }
 
 .button:hover {
@@ -43,7 +45,6 @@
     text-align: center;
     margin-left: 0;
 }
-
 
 .searchIcon {
     font-size: 1em;

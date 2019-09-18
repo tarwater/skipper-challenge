@@ -1,15 +1,13 @@
 .notelist {
-    /*max-width: 400px;*/
     width: 30%;
     height: 100vh;
-    /*margin-top: 40px;*/
     border-right: 1px solid #d7d7d7;
     display: inline-block;
     box-sizing: border-box;
     position: fixed;
     left: 0;
     top: 40px;
-
+    overflow-y: auto;
 }
 
 .list {
